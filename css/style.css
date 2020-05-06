@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +56,7 @@ header ul li:hover a {
 }
 
 header ul a {
-  color: blanchedalmond;
+  color: #b98d72;
   font-size: 1.7em;
 }
 

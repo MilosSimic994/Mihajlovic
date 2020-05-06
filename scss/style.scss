@@ -1,3 +1,6 @@
+$black: #161b1f;
+$font-color: #b98d72;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +9,9 @@
 
 a {
     text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif
 }
 
 header {
@@ -40,7 +46,7 @@ header {
         }
 
         a {
-            color: blanchedalmond;
+            color: $font-color;
             font-size: 1.7em;
         }
 
@@ -80,7 +86,7 @@ main {
         position: absolute;
         top: 10%;
         right: 10%;
-        color: #fff;;
+        color: #fff;
         text-align: center;
 
         h1 {
@@ -97,9 +103,9 @@ main {
         position: relative;
         height: 30vh;
         width: 100%;
-        background-color: #161b1f;
+        background-color: $black;
         margin-top: 100px;
-        color: #b98d72;
+        color: $font-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -125,9 +131,9 @@ main {
         position: relative;
         height: 30vh;
         width: 100%;
-        background-color: #161b1f;
+        background-color: $black;
         margin-top: 100px;
-        color: #b98d72;
+        color: $font-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -185,7 +191,7 @@ main {
     .vine__desc-title {
         font-size: 5rem;
         margin: 4rem 0;
-        border-bottom: 4px solid #161b1f;
+        border-bottom: 4px solid $black;
         
     }
 
