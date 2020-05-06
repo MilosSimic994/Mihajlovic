@@ -1,0 +1,247 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: o;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+header .logo {
+  padding-left: 3rem;
+}
+
+header .logo img {
+  width: 3em;
+  height: 3em;
+}
+
+header ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  padding: 2em 3em;
+  height: 100%;
+}
+
+header ul li:hover a {
+  color: #a73d3d;
+}
+
+header ul a {
+  color: blanchedalmond;
+  font-size: 1.7em;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .bg {
+  width: 100%;
+  height: 90vh;
+  z-index: -2;
+}
+
+main .bg .img-slide {
+  width: 100%;
+  height: 90vh;
+}
+
+main .vine-bg {
+  background: #57233a;
+  width: 100%;
+  height: 200rem;
+  position: absolute;
+  z-index: -7;
+}
+
+main .home-title {
+  font-family: 'Parisienne', cursive;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: #fff;
+  text-align: center;
+}
+
+main .home-title h1 {
+  font-size: 10rem;
+}
+
+main .home-title h3 {
+  font-size: 5rem;
+}
+
+main .bottle {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  background-color: #161b1f;
+  margin-top: 100px;
+  color: #b98d72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .bottle img {
+  position: absolute;
+  top: -60px;
+  left: 95px;
+  width: 20em;
+  height: 25em;
+  -webkit-transform: skew(0deg, 0deg);
+          transform: skew(0deg, 0deg);
+}
+
+main .bottle .bottle-text {
+  width: 70%;
+  text-align: right;
+  position: absolute;
+  font-size: 3rem;
+}
+
+main .bottle-2 {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  background-color: #161b1f;
+  margin-top: 100px;
+  color: #b98d72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .bottle-2 img {
+  position: absolute;
+  top: -60px;
+  right: 95px;
+  width: 20em;
+  height: 25em;
+  -webkit-transform: skew(0deg, 0deg);
+          transform: skew(0deg, 0deg);
+}
+
+main .bottle-2 .bottle-text {
+  width: 70%;
+  text-align: left;
+  font-size: 3rem;
+}
+
+.holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.vine__img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vine__img img {
+  width: 22rem;
+  height: 30rem;
+}
+
+.vine__desc {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+  padding-left: 6rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #57233a;
+  background-color: #b98d724f;
+}
+
+.vine__desc .vine__desc-title {
+  font-size: 5rem;
+  margin: 4rem 0;
+  border-bottom: 4px solid #161b1f;
+}
+
+.vine__desc h3 {
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  width: 70%;
+  line-height: 1.5;
+}
+
+.vine__desc h3 span {
+  font-size: 1.6rem;
+  padding-right: 1rem;
+}
