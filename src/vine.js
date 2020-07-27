@@ -9,7 +9,7 @@ let sorte = [
         descrption: `Vino predstavlja jedinstvenu kupažu raskošnog bukea sa izraženim
                     aromama breskve i dunje, obogaćenih nežnim mineralnim i citrusnim tonovima i
                     diskretnim nijansama belog livadskog cveća`,
-        avatar: '/img/Wine Bottle/8tamburasa.png'
+        avatar: 'img/Wine Bottle/8tamburasa.png'
     },
     {
         name: 'ROSÉ',
@@ -19,7 +19,7 @@ let sorte = [
                     svežina sa prefinjenim aromama jagode i maline i nežnim tonovima
                     ružinog cveta. Prijatna slast i aromatičnost u završnici zaokružuju
                     njegovu eleganciju`,
-        avatar: '/img/Wine Bottle/Rose.jpg'
+        avatar: 'img/Wine Bottle/Rose.jpg'
     },
     {
         name: 'ŽIVOT TEČE',
@@ -28,7 +28,7 @@ let sorte = [
         descrption: `Na mirisu su izražene arome zrele višnje i šumskog voća koje
                     upotpunjuje diskretni dodir vanile i crne čokolade. Prefinjeno i elegantno
                     vino intenzivne rubin crvene boje, nežne teksture i prijatne, voćne završnice.`,
-        avatar: '/img/Wine Bottle/Zivot Tece.jpg'
+        avatar: 'img/Wine Bottle/Zivot Tece.jpg'
     },
     {
         name: 'SAUVIGNON BLANC',
@@ -36,7 +36,7 @@ let sorte = [
         sort: '100% Sauvignon blanc',
         descrption: `Vino odlikuje široka paleta raskošnih aroma u kojoj dominiraju
                      note ananasa, grejpfruta i marakuje`,
-        avatar: '/img/Wine Bottle/savignon blanc.png'
+        avatar: 'img/Wine Bottle/savignon blanc.png'
     }
 ]
 

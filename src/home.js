@@ -4,9 +4,9 @@ let imgSlide = document.querySelector('.img-slide')
 let i = 0;
 let time = 5000;
 let images = [
-    '/img/home-img.jpeg',
-    '/img/home-img2.jpeg',
-    '/img/home-img3.jpeg',
+    'img/home-img.jpeg',
+    'img/home-img2.jpeg',
+    'img/home-img3.jpeg',
     
 ]
 
